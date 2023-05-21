@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
-
   },
   "repository": {
     "type": "git",
@@ -20,5 +19,8 @@
   "homepage": "https://github.com/JayashTripathy/profile-card",
   "devDependencies": {
     "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0"
   }
 }
