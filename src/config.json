@@ -1,0 +1,29 @@
+{
+    "info": {
+      "name" : "Jayash Tripathy",
+      "title" : "Fullstack Developer"
+    },
+    "links" : [
+        {
+            "name": "Website",
+            "url": "https://jayash.space"
+        },
+        {
+            "name": "GitHub",
+            "url": "https://jayash.space"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://jayash.space"
+        }, {
+            "name": "Twitter",
+            "url": "https://jayash.space"
+        }
+
+        
+    ],
+    "style": {
+        "baseColor" : "white",
+        "accentColor" : "pink"
+    }
+}
