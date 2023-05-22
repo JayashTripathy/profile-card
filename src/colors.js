@@ -7,4 +7,4 @@ const colors =  {
     accent : chalk[style.accentColor],
 }
 
-mosule.exports = colors;
+module.exports = colors;
