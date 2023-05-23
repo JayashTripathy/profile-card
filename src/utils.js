@@ -51,10 +51,7 @@ const getShift = name => {
     return shift
 }
 
-console.log(getWidth())
-console.log(getFill("test") + paddingLeft + paddingRight  + ("test").length)
-console.log(getLongestLinkNameLength())
-console.log(getShift("tse"))
+
 
 module.exports = {
     space,
