@@ -12,6 +12,7 @@ const {
 const corners = require("./corners");
 const colors = require("./colors");
 const { marginLeft } = require("./constants");
+const { links } = require("../config.json");
 
 const getTopBorder = () => {
   const topBorder = [
@@ -28,10 +29,22 @@ const getBlankLine = () => {
   const blankLine = [
     colors.base(space(marginLeft)),
     colors.base(verticalBorder(1)),
+    colors.base(space(getLongestLength())),
+    colors.base(verticalBorder(1)),
   ].join("");
 
   return blankLine;
 };
 
+const getLinkLine = content => {
+  
+  
+}
+
 console.log(getTopBorder());
 console.log(getBlankLine());
+console.log(getBlankLine());
+console.log(getBlankLine());
+console.log(getBlankLine());
+console.log(getTopBorder());
+

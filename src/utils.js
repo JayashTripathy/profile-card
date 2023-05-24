@@ -12,7 +12,7 @@ const verticalBorder = count  =>{
 }
 
 const horizontalBorder = count => {
-    return colors.base("─").repeat(count)
+    return colors.base("–").repeat(count)
 }
 
 const getLinkLength = link => {
