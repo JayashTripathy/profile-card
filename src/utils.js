@@ -8,11 +8,11 @@ const space = count =>{
 }
 
 const verticalBorder = count  =>{
-    return colors.base("|").repeat(count)
+    return colors.base("│").repeat(count)
 }
 
 const horizontalBorder = count => {
-    return colors.base("-").repeat(count)
+    return colors.base("─").repeat(count)
 }
 
 const getLinkLength = link => {
