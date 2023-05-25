@@ -1,9 +1,10 @@
 const colors = require("./colors")
 const {links, style} = require("../config.json")
-const {paddingLeft, paddingRight} = require("./constants")
+const {paddingLeft, paddingRight, indent} = require("./constants")
 
 
 const space = count =>{
+    
     return " ".repeat(count)
 }
 
@@ -16,7 +17,7 @@ const horizontalBorder = count => {
 }
 
 const getLinkLength = link => {
-    const length = `${link.name}: ${link.url}`.length
+    const length = ` ${link.name}: ${link.url} `.length
     return length
 }
 
@@ -35,19 +36,21 @@ const getLongestLinkNameLength = () => {
 
 const getWidth = () => {
     const longestLink = getLongestLength()
-    const width = paddingLeft + paddingRight +longestLink
+    const width = paddingLeft + indent + paddingRight +longestLink
     return width
 }
 
 const getFill = content => {
  const width = getWidth()
- const fill = width - paddingLeft - paddingRight - content.length
+ const fill = width - paddingLeft - paddingRight  - content.length
  return fill 
 }
 
 const getShift = name => {
     const longestLinkName = getLongestLinkNameLength()
+    
     const shift = longestLinkName - name.length
+    
     return shift
 }
 

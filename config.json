@@ -10,20 +10,23 @@
         },
         {
             "name": "GitHub",
-            "url": "https://jayash.space"
+            "url": "https://github.com/JayashTripathy"
         },
         {
             "name": "LinkedIn",
-            "url": "https://jayash.space"
+            "url": "https://www.linkedin.com/in/jayash-tripathy/"
         }, {
             "name": "Twitter",
-            "url": "https://jayash.space"
+            "url": "https://twitter.com/jayash_tripathy"
         }
+        
+        
+
 
         
     ],
     "style": {
         "baseColor" : "white",
-        "accentColor" : "pink"
+        "accentColor" : "magenta"
     }
 }

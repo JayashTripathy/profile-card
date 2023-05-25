@@ -1,12 +1,14 @@
-const marginTop = 5;
-const marginBottom = 5;
-const marginLeft = 5;
-const marginRight = 5;
+const marginTop = 1
+const marginRight = 4
+const marginBottom = 1
+const marginLeft = 4
 
-const paddingTop = 5;
-const paddingBottom = 5;
-const paddingLeft = 5;
-const paddingRight = 5;
+const paddingTop = 1
+const paddingRight = 8
+const paddingBottom = 1
+const paddingLeft = 4
+
+const indent = 4
 
 module.exports = {
   marginTop,
@@ -17,4 +19,5 @@ module.exports = {
   paddingBottom,
   paddingLeft,
   paddingRight,
+  indent
 };
