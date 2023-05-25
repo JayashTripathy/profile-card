@@ -17,8 +17,9 @@ const {
   paddingRight,
   indent,
   marginRight,
+  titlePaddingLeft,
 } = require("./constants");
-const { links } = require("../config.json");
+const { links, info } = require("../config.json");
 
 const getTopBorder = () => {
   const topBorder = [
@@ -76,6 +77,24 @@ const getLinkLine = (name, url) => {
   return line;
 };
 
+const getTitleLine = (name) => {
+   
+  const titleFill = getWidth() - titlePaddingLeft - name.length 
+
+  const titleLine = [
+     colors.base(space(marginLeft)),
+     colors.base(verticalBorder(1)),
+     colors.base(space(titlePaddingLeft)),
+     colors.base(name),
+     colors.base(space(titleFill)),
+     colors.base(verticalBorder(1)),
+     
+  ].join("")
+
+  return titleLine
+
+}
+
 // console.log(getTopBorder());
 // console.log(getBlankLine());
 // console.log(getBlankLine());
@@ -86,8 +105,10 @@ const getLinkLine = (name, url) => {
 // console.log(getTopBorder());
 
 
+
 module.exports = {
   getBlankLine,
   getTopBorder,
-  getLinkLine
+  getLinkLine,
+  getTitleLine,
 }

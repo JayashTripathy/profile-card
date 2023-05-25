@@ -8,7 +8,10 @@ const paddingRight = 8
 const paddingBottom = 1
 const paddingLeft = 4
 
-const indent = 4
+const indent = 2
+
+const titlePaddingLeft = 3
+
 
 module.exports = {
   marginTop,
@@ -19,5 +22,6 @@ module.exports = {
   paddingBottom,
   paddingLeft,
   paddingRight,
-  indent
+  indent,
+  titlePaddingLeft,
 };

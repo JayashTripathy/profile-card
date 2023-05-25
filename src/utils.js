@@ -1,5 +1,5 @@
 const colors = require("./colors")
-const {links, style} = require("../config.json")
+const {links, info, style} = require("../config.json")
 const {paddingLeft, paddingRight, indent} = require("./constants")
 
 

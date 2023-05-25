@@ -1,10 +1,18 @@
-const { links } = require("../config.json");
-const { getBlankLine, getTopBorder, getLinkLine } = require("./builder");
+const { links, info } = require("../config.json");
+const {
+  getBlankLine,
+  getTopBorder,
+  getLinkLine,
+  getTitleLine,
+} = require("./builder");
 
 const card = [
   getTopBorder(),
   getBlankLine(),
-  getBlankLine(),
+  getTitleLine(info.name),
+  getTitleLine(info.title),
+  getBlankLine(), 
+
   ...links.map((link) => getLinkLine(link.name, link.url)),
 
   getBlankLine(),
@@ -12,5 +20,4 @@ const card = [
   getTopBorder(),
 ].join("\n");
 
-
-console.log(card)
+console.log(card);
