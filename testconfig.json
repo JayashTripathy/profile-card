@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "sad",
+    "title": "sda"
+  },
+  "links": [
+    {
+      "name": "asd",
+      "url": "asd"
+    },
+    {
+      "name": "sdsad",
+      "url": "asd"
+    }
+  ],
+  "style": {
+    "corner": "plus",
+    "border": "base",
+    "baseColor": "White",
+    "accentColor": "Blue"
+  }
+}

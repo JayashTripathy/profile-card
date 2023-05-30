@@ -21,6 +21,7 @@
     "nodemon": "^2.0.22"
   },
   "dependencies": {
-    "chalk": "^4.1.2"
+    "chalk": "^4.1.2",
+    "inquirer": "^8.0.0"
   }
 }

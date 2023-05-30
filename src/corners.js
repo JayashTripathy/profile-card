@@ -31,4 +31,4 @@ const plus = {
 }
 
 
-module.exports = {premium, rounded, base, triangle}
+module.exports = {premium, rounded, base, triangle, plus}
