@@ -1,6 +1,7 @@
 const colors = require("./colors")
 const {links, info, style} = require("../config.json")
 const {paddingLeft, paddingRight, indent} = require("./constants")
+const border = require("./border");
 
 
 const space = count =>{
@@ -9,11 +10,12 @@ const space = count =>{
 }
 
 const verticalBorder = count  =>{
-    return colors.base("│").repeat(count)
+    return colors.base(border[style.border].verticalBorder).repeat(count)
 }
 
+
 const horizontalBorder = count => {
-    return colors.base("–").repeat(count)
+    return colors.base(border[style.border].horizontalBorder).repeat(count)
 }
 
 const getLinkLength = link => {

@@ -19,14 +19,25 @@ const {
   marginRight,
   titlePaddingLeft,
 } = require("./constants");
-const { links, info } = require("../config.json");
+const { links, info, style } = require("../config.json");
 
 const getTopBorder = () => {
   const topBorder = [
     space(marginLeft),
-    colors.base(corners["premium"].topLeft),
+    colors.base(corners[style.corner].topLeft),
     colors.base(horizontalBorder(getWidth())),
-    colors.base(corners["premium"].topRight),
+    colors.base(corners[style.corner].topRight),
+    space(marginRight),
+  ].join("");
+
+  return topBorder;
+};
+const getBottomBorder = () => {
+  const topBorder = [
+    space(marginLeft),
+    colors.base(corners[style.corner].bottomLeft),
+    colors.base(horizontalBorder(getWidth())),
+    colors.base(corners[style.corner].bottomRight),
     space(marginRight),
   ].join("");
 
@@ -111,4 +122,5 @@ module.exports = {
   getTopBorder,
   getLinkLine,
   getTitleLine,
+  getBottomBorder
 }

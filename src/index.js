@@ -4,6 +4,7 @@ const {
   getTopBorder,
   getLinkLine,
   getTitleLine,
+  getBottomBorder
 } = require("./builder");
 
 const card = [
@@ -17,7 +18,7 @@ const card = [
 
   getBlankLine(),
   getBlankLine(),
-  getTopBorder(),
+  getBottomBorder(),
 ].join("\n");
 
 console.log(card);

@@ -27,6 +27,8 @@
     ],
     "style": {
         "baseColor" : "white",
-        "accentColor" : "magenta"
+        "accentColor" : "magenta",
+        "corner": "base",
+        "border": "base"
     }
 }
