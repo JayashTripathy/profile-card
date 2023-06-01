@@ -1,7 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
-const { type } = require("os");
 const { infoQuestions, linkQuestions, styleQuestions } = require("./questions");
+const chalk = require("chalk");
 
 const generate = async () => {
   const config = {
@@ -9,12 +9,13 @@ const generate = async () => {
     links: [],
   };
 
-  console.log("\n Generate you node profile card! 🚀 \n");
+  console.log(chalk.bold.white("\n ---------- Create your personalized node profile card!🚀 ----------  \n"));
 
   const infoAnswer = await inquirer.prompt(infoQuestions);
   config.info = infoAnswer;
 
-  console.log("\n Enter Links!  \n");
+
+  console.log(chalk.bold.white("\n ---------- Enter Links! ----------  \n"));
 
   let newLinks = true;
 
@@ -41,6 +42,6 @@ const generate = async () => {
 
   config.style = styleAnswer;
 
-  fs.writeFileSync("testconfig.json", JSON.stringify(config, null, 2));
+  fs.writeFileSync("config.json", JSON.stringify(config, null, 2));
 };
 generate();

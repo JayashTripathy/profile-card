@@ -1,34 +1,22 @@
 {
-    "info": {
-      "name" : "Jayash Tripathy",
-      "title" : "Fullstack Developer"
+  "info": {
+    "name": "Jayash Tripathy",
+    "title": "Frontend Developer"
+  },
+  "links": [
+    {
+      "name": "website",
+      "url": "jayash.space"
     },
-    "links" : [
-        {
-            "name": "Website",
-            "url": "https://jayash.space"
-        },
-        {
-            "name": "GitHub",
-            "url": "https://github.com/JayashTripathy"
-        },
-        {
-            "name": "LinkedIn",
-            "url": "https://www.linkedin.com/in/jayash-tripathy/"
-        }, {
-            "name": "Twitter",
-            "url": "https://twitter.com/jayash_tripathy"
-        }
-        
-        
-
-
-        
-    ],
-    "style": {
-        "baseColor" : "white",
-        "accentColor" : "magenta",
-        "corner": "base",
-        "border": "base"
+    {
+      "name": "github",
+      "url": "github/jayashtripathy"
     }
+  ],
+  "style": {
+    "corner": "premium",
+    "border": "dotted",
+    "baseColor": "magenta",
+    "accentColor": "blue"
+  }
 }
