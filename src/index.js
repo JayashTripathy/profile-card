@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { links, info } = require("../config.json");
 const {
   getBlankLine,

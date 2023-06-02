@@ -48,7 +48,7 @@ const styleQuestions = [
     name: "baseColor",
     message: "Primary color: ",
     choices: [
-      "white","magenta", "cyan", "gray" 
+      "white","blue","magenta", "cyan", "gray"  
     ],
   },
   {
@@ -56,7 +56,7 @@ const styleQuestions = [
     name: "accentColor",
     message: "Secondary color: ",
     choices: [
-      "blue","magenta", "cyan", "gray" 
+      "white","blue","magenta", "cyan", "gray" 
     ],
   },
 ];
