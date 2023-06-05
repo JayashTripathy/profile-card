@@ -31,12 +31,12 @@ This is an example of how you can create you own.
    ```
 3. Run
    ```js
-   npm run create
+   npm run create 
    ```
-
+#### now fill you all the details and style configurations
 
 <!-- Configurations -->
-## Style Configurations
+## Style Configurations 🎨
 
 
 <!-- ROADMAP -->
@@ -50,6 +50,16 @@ This is an example of how you can create you own.
    `✜――――――――――――✜`
 -  rounded         
    `╭――――――――――――╮`
+   
+### Borders
+
+-  base  
+   `┏――――――――――――――――――――――┓`
+-  Dotted  
+  `┏----------------------┓`
+-  thick         
+   `┏━━━━━━━━━━━━━━━━━━━━━━┓`
+   
 
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
