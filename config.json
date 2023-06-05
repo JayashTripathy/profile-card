@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "Jayash Tripathy",
-    "title": "Frontend  Developer"
+    "title": "Frontend Developer"
   },
   "links": [
     {
@@ -22,9 +22,9 @@
     }
   ],
   "style": {
-    "corner": "premium",
+    "corner": "rounded",
     "border": "dotted",
-    "baseColor": "magenta",
-    "accentColor": "white"
+    "baseColor": "white",
+    "accentColor": "magenta"
   }
 }

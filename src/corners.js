@@ -18,10 +18,10 @@ const base = {
     bottomRight: "┛",
 }
 const rounded = {
-    topLeft: "┏",
-    topRight: "┓",
-    bottomLeft: "┗",
-    bottomRight: "┛",
+    topLeft: "╭",
+    topRight: "╮",
+    bottomLeft: "╰",
+    bottomRight: "╯",
 }
 const plus = {
     topLeft: "✜",

@@ -5,7 +5,8 @@ const {
   getTopBorder,
   getLinkLine,
   getTitleLine,
-  getBottomBorder
+  getBottomBorder,
+  getSeperator
 } = require("./builder");
 
 const card = [
@@ -13,6 +14,8 @@ const card = [
   getBlankLine(),
   getTitleLine(info.name),
   getTitleLine(info.title),
+  getBlankLine(), 
+  getSeperator(),
   getBlankLine(), 
 
   ...links.map((link) => getLinkLine(link.name, link.url)),

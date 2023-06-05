@@ -1,12 +1,15 @@
 
 const dotted = {
     verticalBorder: "┇",
-    horizontalBorder: "┉"
+    horizontalBorder: "-"
 }
 
 const base = {
     verticalBorder: "│",
     horizontalBorder: "―"
 }
-
-module.exports = {dotted, base}
+const thick = {
+    verticalBorder: "│",
+    horizontalBorder: "━"
+}
+module.exports = {dotted, base, thick}

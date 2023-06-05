@@ -106,6 +106,17 @@ const getTitleLine = (name) => {
 
 }
 
+const getSeperator = () => {
+  const seperator = [
+    space(marginLeft),
+    colors.base(verticalBorder(1)),
+    colors.base(horizontalBorder(getWidth())),
+    colors.base(verticalBorder(1)),
+  ].join("")
+
+  return seperator
+}
+
 // console.log(getTopBorder());
 // console.log(getBlankLine());
 // console.log(getBlankLine());
@@ -122,5 +133,6 @@ module.exports = {
   getTopBorder,
   getLinkLine,
   getTitleLine,
-  getBottomBorder
+  getBottomBorder,
+  getSeperator
 }

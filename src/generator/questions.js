@@ -39,8 +39,9 @@ const styleQuestions = [
     name: "border",
     message: "Border style: ",
     choices: [
-      { name: "――――――――――――――――――――――――――――――――――", value: "base" },
+      { name: "―――――――――――――――――――――――――――――――", value: "base" },
       { name: "┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉", value: "dotted" },
+      { name: "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━", value: "thick" },
     ],
   },
   {
