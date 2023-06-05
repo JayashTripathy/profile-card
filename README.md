@@ -12,6 +12,10 @@
   <img src="https://res.cloudinary.com/df0aad0ku/image/upload/v1685871547/Screenshot_2023-06-04_150547_tb5zgp.png" />
 </div>
    
+<!-- preview -->
+## Preview
+
+Rum `npx jayash` on any nodejs terminal to see the  preview
 
    
 <!-- GETTING STARTED -->
