@@ -15,7 +15,7 @@
 <!-- preview -->
 ## Preview
 
-Rum `npx jayash` on any nodejs terminal to see the  preview
+Run `npx jayash` on any nodejs terminal to see the  preview
 
    
 <!-- GETTING STARTED -->
