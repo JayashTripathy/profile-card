@@ -15,7 +15,11 @@
 <!-- preview -->
 ## Preview
 
-Run `npx jayash` on any nodejs terminal to see the  preview
+Run 
+```bash 
+npx jayash
+``` 
+on any nodejs terminal to see the  preview
 
    
 <!-- GETTING STARTED -->
@@ -75,7 +79,10 @@ This is an example of how you can create you own.
 
 
 #### after all the configurations you can preview you card using 
-`npm start`
+```bash 
+npm start
+```
+
 
 
 
