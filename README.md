@@ -83,6 +83,18 @@ This is an example of how you can create you own.
 npm start
 ```
 
+### Now publish your card
+###### before going into next step make sure you logged in to nodejs in your terminal 
+
+Update the `name` feild in `package.json` file , example
+```bash
+"name": "jayash"
+```
+
+Publish
+```bash
+npm publish
+```
 
 
 
