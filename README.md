@@ -15,7 +15,11 @@
 <!-- preview -->
 ## Preview
 
-Run `npx jayash` on any nodejs terminal to see the  preview
+Run 
+```bash 
+npx jayash
+``` 
+on any nodejs terminal to see the  preview
 
    
 <!-- GETTING STARTED -->
@@ -75,7 +79,22 @@ This is an example of how you can create you own.
 
 
 #### after all the configurations you can preview you card using 
-`npm start`
+```bash 
+npm start
+```
+
+### Now publish your card
+###### before going into next step make sure you logged in to nodejs in your terminal 
+
+Update the `name` feild in `package.json` file , example
+```bash
+"name": "jayash"
+```
+
+Publish
+```bash
+npm publish
+```
 
 
 
