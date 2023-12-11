@@ -14,7 +14,8 @@
     "dev": "nodemon src/index.js",
     "create": "node src/generator/generate",
     "build": "parcel build src/index.js --target node --no-source-maps",
-    "generate": "node src/generator/generate"
+    "generate": "node src/generator/generate",
+    "start:prod": "node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -28,8 +29,8 @@
   "homepage": "https://github.com/JayashTripathy/profile-card",
   "devDependencies": {
     "nodemon": "^2.0.22",
-    "parcel": "^2.9.1",
-    "parcel-bundler": "^1.12.5",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.3",
     "parcel-plugin-clean-dist": "^0.0.6",
     "parcel-plugin-shebang": "^1.4.1"
   },

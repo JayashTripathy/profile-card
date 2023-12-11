@@ -1,30 +1,22 @@
 {
   "info": {
-    "name": "Jayash Tripathy",
+    "name": "Jayash",
     "title": "Frontend Developer"
   },
   "links": [
     {
-      "name": "Website",
-      "url": "https://www.jayash.space/"
+      "name": "github",
+      "url": "github.com/jayas"
     },
     {
-      "name": "Github",
-      "url": "https://github.com/JayashTripathy"
-    },
-    {
-      "name": "LinkedIn",
-      "url": "https://www.linkedin.com/in/jayash-tripathy/"
-    },
-    {
-      "name": "Twitter",
-      "url": "https://twitter.com/jayash_tripathy"
+      "name": "linkedin",
+      "url": "linkedin/jayash"
     }
   ],
   "style": {
-    "corner": "rounded",
+    "corner": "premium",
     "border": "dotted",
-    "baseColor": "white",
-    "accentColor": "magenta"
+    "baseColor": "cyan",
+    "accentColor": "white"
   }
 }
