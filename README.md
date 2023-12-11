@@ -9,7 +9,7 @@
   <p align="center">
     Create an awesome terminal profile-card that can be used in any node js environment.  
    </p>
-  <img src="https://res.cloudinary.com/df0aad0ku/image/upload/v1685871547/Screenshot_2023-06-04_150547_tb5zgp.png" />
+  <img src="https://res.cloudinary.com/jayash/image/upload/v1685871547/Screenshot_2023-06-04_150547_tb5zgp.png" />
 </div>
    
 <!-- preview -->
