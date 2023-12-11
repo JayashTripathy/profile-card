@@ -23,9 +23,8 @@ on any nodejs terminal to see the  preview
 
    
 <!-- GETTING STARTED -->
-## Getting Started
+## Create your own
 
-This is an example of how you can create you own.
 
 ### Installation
 
